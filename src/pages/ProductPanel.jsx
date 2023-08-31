@@ -173,7 +173,9 @@ const ProductPanel = () => {
             to="/Recap"
           >
             {" "}
-            <button style={{ width: "100%" }}>validate</button>
+            <button style={{ width: "100%", cursor: "pointer" }}>
+              validate
+            </button>
           </Link>
         </div>
       </div>
